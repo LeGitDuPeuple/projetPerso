@@ -1,0 +1,65 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  img {
+    height: 40px;
+    width: 150px;
+  }
+
+  .nav-gauche {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-li {
+    display: flex;
+
+    li {
+      margin: 20px;
+      position: relative; // IMPORTANT pour ::after
+      list-style: none;
+      cursor: pointer;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        width: 0;            
+        height: 2px;        
+        background: #e63946;   // rouge direct à la place de $colorRed
+        transition: width 0.3s ease; 
+      }
+
+      &:hover::after {
+        width: 100%;        
+      }
+    }
+  }
+
+  .nav-btn {
+    display: flex;
+
+    button {
+      background: none;
+      color: #000;
+      padding: 12px 40px; 
+      border: 1px solid #000; 
+      border-radius: 5px;
+      text-transform: uppercase;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+
+      &:hover {
+        color: #fff;
+        background: #000;
+      }
+    }
+  }
+}
