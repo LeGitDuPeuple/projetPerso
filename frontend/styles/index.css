@@ -169,18 +169,14 @@ nav .nav-btn button:hover {
   font-weight: bold;
   color: whitesmoke;
   margin: 30px;
-  opacity: 0;
-  animation: moveBoxH2 2s ease forwards;
 }
 .section2 .section2-container p {
   color: whitesmoke;
   font-size: 1.3rem;
-  width: 65%; /* ajuste pour forcer environ 3 lignes */
-  margin: 0 auto; /* centre horizontalement */
-  text-align: center; /* aligne chaque ligne au centre */
-  line-height: 2; /* espace entre les lignes */
-  opacity: 0;
-  animation: moveBox 2s ease forwards;
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2;
 }
 .section2 .section2-container button {
   padding: 15px 40px;
@@ -192,30 +188,13 @@ nav .nav-btn button:hover {
   border-radius: 5px;
   border: 1px solid #ffffff;
   cursor: pointer;
-  margin-top: 40px;
-  opacity: 0;
-  animation: moveBox 2s ease forwards;
+  margin: 40px;
 }
 .section2 .section2-container button:hover {
   background: #ffffff;
   color: #000000;
 }
 
-@keyframes moveBox {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes moveBoxH2 {
-  0% {
-    font-size: 1rem;
-    opacity: 0;
-  }
-  100% {
-    font-size: 3rem;
-    opacity: 1;
-  }
+.section3 h2 {
+  color: purple;
 }/*# sourceMappingURL=index.css.map */
