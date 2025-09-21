@@ -195,6 +195,17 @@ nav .nav-btn button:hover {
   color: #000000;
 }
 
-.section3 h2 {
-  color: purple;
+.section3 {
+  background: rgb(41, 51, 49);
+}
+.section3 .users-id {
+  background: whitesmoke;
+  height: 200px;
+  width: 150px;
+  gap: 2;
+}
+.section3 .users-id img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
 }/*# sourceMappingURL=index.css.map */

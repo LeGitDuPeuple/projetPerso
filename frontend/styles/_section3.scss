@@ -1,5 +1,17 @@
 .section3 {
-    h2 {
-        color: purple;
+ background:rgb(41, 51, 49);
+
+
+
+ .users-id {
+    background: whitesmoke;
+    height: 200px;
+    width: 150px;
+    gap: 2;
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
     }
+ }
 }
