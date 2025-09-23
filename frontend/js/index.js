@@ -20,8 +20,8 @@ async function getUsers(){
        for (let i = 0; i < data.length; i++) {
     let html = `   
         <article class="users-id">
-          <h3 class="contentUser">${data[i].user}</h3>
-          <img src="${data[i].img}" alt="image du Post">
+        <img src="${data[i].img}" alt="image du Post">
+        <h3 class="h3-user">${data[i].user}</h3>
           <p>${data[i].poste}</p>
         </article>`;
     div.innerHTML += html;
